@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 body {
-	background-color: black;
+	background-color: #121326;
 	color: white;
-	font-family: Comfortaa;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 .container {
@@ -10,16 +11,18 @@ body {
 
 .box {
 	margin: auto;
-	background-color: Blue;
-	padding: 10px;
+	background-color: #ffffff;
+	padding: 5tpx;
 	width: 400px;
+  overflow: hidden;
+	border-radius: 10px;
 }
 
 #glist {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	width: 400px;
-	height: 520px;
+	height: 500px;
 	padding: 0;
 	text-align: center;
 }
@@ -35,17 +38,17 @@ body {
 }
 
 #gsearchbar:focus {
-	background-color: #eee;
+	background-color: #00bfff;
 	box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.4);
 }
 
 #glist h2 {
 	display: block;
-	color: gray;
+	color: white;
 	font: 18px;
-	border: 1px solid #56635f;
+	border: 1px solid #060606;
 	margin: -1px 0 0 0;
-	background-color: #56635f;
+	background-color: #121326;
 	padding: 12px;
 	font-weight: bold;
 	user-select: none;
@@ -54,16 +57,50 @@ body {
 #glist a {
 	display: block;
 	text-decoration: inherit;
-	color: black;
+	color: #121326;
 	font-size: 18px;
-	border: 1px solid #dddddd;
+	border: 1px solid #eeeeee;
 	margin-top: -1px;
-	background-color: #f6f6f6;
+	background-color: #eeeeee;
 	padding: 12px;
 	transition: 0.2s ease;
 }
 
 #glist a:hover {
-	background-color: #eeeeee;
+	background-color: #00ccff;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#glist h3 {
+	display: block;
+	color: white;
+	font: 18px;
+	border: 1px solid #8b8b8b;
+	margin: -1px 0 0 0;
+	background-color: #121326;
+	padding: 12px;
+	font-weight: bold;
+	user-select: none;
+}
+#glist h1 {
+	display: block;
+	color: white;
+	font: 18px;
+	border: 1px solid #8b8b8b;
+	margin: -1px 0 0 0;
+	background-color: #060606;
+	padding: 12px;
+	font-weight: bold;
+	user-select: none;
+}
+#glist h4 {
+	display: block;
+	color: white;
+	font: 18px;
+	border: 1px solid #8b8b8b;
+	margin: -1px 0 0 0;
+	background-color: #060606;
+	padding: 12px;
+	font-weight: bold;
+	user-select: none;
 }
